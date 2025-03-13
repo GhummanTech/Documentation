@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/GhummanTechLogo3.jpg',
 
   // Set the production url of your site here
-  url: 'https://ghummantech.com',
+  url: 'https://GhummanTech.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/Documentation',

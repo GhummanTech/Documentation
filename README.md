@@ -1,62 +1,50 @@
-### To run locally
-```
-npm start
-```
+# Ghumman Tech Documentation
 
-### To build the project
-```
-npm run build
-```
+Welcome to the **Ghumman Tech Documentation** project! This repository contains publicly available documentation for the courses, seminars, and features offered by Ghumman Tech.
 
-### Move files to Ghumman Tech website after building it. 
-```
-cp -rf build/* ../public/docs/
-```
+## 📖 About Ghumman Tech
+Ghumman Tech is an end-to-end solution for teaching and learning. It provides a platform where teachers can create and host courses and seminars for K-12 students and adults. Our offerings include:
+- K-12 Subject Courses
+- Outdoor Activities & Extra-Curricular Programs
+- Dentistry & Healthcare Seminars
+- Autism & Special Needs Education
+- Coding (Scratch, Python, C++, Java)
+- Mobile App Development (MIT App Inventor)
+- Game Development (Unity, Blender)
+- AI & Electronics
+- Urdu Language
+- And much more!
 
+Classes can be conducted as:
+- **Group Sessions or One-on-One**
+- **Live or Self-Paced**
 
+Visit our website: [Ghumman Tech](https://www.ghummantech.com)
 
+## 📚 What This Documentation Covers
+This documentation includes:
+- Course and seminar guides
+- Step-by-step tutorials
+- Troubleshooting and FAQs
+- Guides for using Ghumman Tech tools and platforms
 
--------------------------------------------------------
--- Initial Automatic Documentation
--------------------------------------------------------
-# Website
+## 🚀 Getting Started
+To view the documentation, simply visit our [Docs Website](#) (Coming Soon!).
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+### Contributing
+We welcome contributions! If you find any errors or want to improve the documentation:
+1. Fork this repository.
+2. Make your changes.
+3. Submit a pull request.
 
-### Installation
+### Issues & Support
+If you find a mistake or have a suggestion, open an issue in this repository. For direct support, contact us at **support@ghummantech.com**.
 
-```
-$ yarn
-```
+## 📜 License
+This documentation is licensed under the **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**.
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+---
+**Stay connected!**
+- 📺 [YouTube](https://www.youtube.com/@ghummantech)
+- 🏫 [Courses](https://www.ghummantech.com/Categories/courses)
+- 📧 Contact: admin@ghummantech.com
