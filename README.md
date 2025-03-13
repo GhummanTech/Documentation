@@ -29,7 +29,7 @@ This documentation includes:
 - Guides for using Ghumman Tech tools and platforms
 
 ## 🚀 Getting Started
-To view the documentation, simply visit our [Docs Website](#) (Coming Soon!).
+To view the documentation, simply visit our [Documentation](https://ghummantech.github.io/Documentation/).
 
 ### Contributing
 We welcome contributions! If you find any errors or want to improve the documentation:
@@ -38,10 +38,7 @@ We welcome contributions! If you find any errors or want to improve the document
 3. Submit a pull request.
 
 ### Issues & Support
-If you find a mistake or have a suggestion, open an issue in this repository. For direct support, contact us at **support@ghummantech.com**.
-
-## 📜 License
-This documentation is licensed under the **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**.
+If you find a mistake or have a suggestion, open an issue in this repository. For direct support, contact us at **admin@ghummantech.com**.
 
 ---
 **Stay connected!**
