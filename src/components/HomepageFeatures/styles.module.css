@@ -1,0 +1,46 @@
+.features {
+  padding: 4rem 0;
+  background-color: #f9fafb; /* Light background */
+}
+
+.featureSvg {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.featureSvg:hover {
+  transform: scale(1.1); /* Add hover effect */
+}
+
+.featureTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748; /* Dark gray */
+  margin-bottom: 0.75rem;
+}
+
+.featureDescription {
+  font-size: 1rem;
+  color: #4a5568; /* Medium gray */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* Add spacing between features */
+  justify-content: center;
+}
+
+.cardMedia {
+  height: 140px;
+  width: 100%;
+  object-fit: cover;
+}
