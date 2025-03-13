@@ -1,24 +1,51 @@
 import React from 'react';
-import { Card, CardContent, Grid, Typography, Button, Container, Box } from '@mui/material';
+import { Card, CardContent, Grid, Typography, Button, Container, Box, useTheme, ThemeProvider, createTheme } from '@mui/material';
 import { Article, School } from '@mui/icons-material'; // Import MUI icons
-import styles from './styles.module.css'; // Import the CSS module
+import { keyframes } from '@emotion/react'; // For animations
+import { useColorMode } from '@docusaurus/theme-common'; // Correct import for Docusaurus v2
+
+// Define animations
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
+const pulse = keyframes`
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+`;
 
 const FeatureList = [
   {
     title: 'Docs',
-    icon: <Article fontSize="large" sx={{ color: '#FF6B6B' }} />, // Soft red icon
+    icon: <Article fontSize="large" sx={{ color: '#e53e3e' }} />, // Consistent red icon
     description: 'Access detailed documentation to get started with our platform and tools.',
     link: '/Documentation/docs/docs/WelcomeDoc',
   },
   {
     title: 'Tutorials',
-    icon: <School fontSize="large" sx={{ color: '#FF6B6B' }} />, // Soft red icon
+    icon: <School fontSize="large" sx={{ color: '#e53e3e' }} />, // Consistent red icon
     description: 'Step-by-step tutorials to help you master our platform and technologies.',
     link: '/Documentation/docs/tutorials/WelcomeTutorial',
   },
 ];
 
 function FeatureCard({ icon, title, description, link }) {
+  const theme = useTheme(); // Use MUI theme for dark mode support
+
   return (
     <Card
       sx={{
@@ -27,16 +54,17 @@ function FeatureCard({ icon, title, description, link }) {
         display: 'flex',
         flexDirection: 'column',
         borderRadius: 3,
-        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+        boxShadow: theme.palette.mode === 'dark' ? '0 4px 20px rgba(255, 255, 255, 0.1)' : '0 4px 20px rgba(0, 0, 0, 0.1)',
         transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+        animation: `${fadeIn} 0.5s ease-out`,
         '&:hover': {
           transform: 'translateY(-8px)',
-          boxShadow: '0 8px 24px rgba(0, 0, 0, 0.2)',
+          boxShadow: theme.palette.mode === 'dark' ? '0 8px 24px rgba(255, 255, 255, 0.2)' : '0 8px 24px rgba(0, 0, 0, 0.2)',
         },
       }}
     >
       <CardContent sx={{ flexGrow: 1, textAlign: 'center', p: 4 }}>
-        <Box sx={{ display: 'flex', justifyContent: 'center', mb: 3 }}>
+        <Box sx={{ display: 'flex', justifyContent: 'center', mb: 3, animation: `${pulse} 2s infinite` }}>
           {icon}
         </Box>
         <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 700, color: 'text.primary', mb: 2 }}>
@@ -50,13 +78,14 @@ function FeatureCard({ icon, title, description, link }) {
           fullWidth
           href={link}
           sx={{
-            color: '#FF6B6B',
-            borderColor: '#FF6B6B',
+            color: '#e53e3e', // Consistent red color
+            borderColor: '#e53e3e',
             fontWeight: 600,
+            transition: 'background-color 0.3s ease, color 0.3s ease',
             '&:hover': {
-              bgcolor: '#FF6B6B',
+              bgcolor: '#e53e3e', // Consistent red color
               color: 'white',
-              borderColor: '#FF6B6B',
+              borderColor: '#e53e3e',
             },
           }}
         >
@@ -68,11 +97,22 @@ function FeatureCard({ icon, title, description, link }) {
 }
 
 export default function HomepageFeatures() {
+  const { colorMode } = useColorMode(); // Get Docusaurus dark mode state
+  const theme = createTheme({
+    palette: {
+      mode: colorMode === 'dark' ? 'dark' : 'light', // Sync MUI theme with Docusaurus dark mode
+    },
+  });
+
   return (
-    <>
-      <Box sx={{ py: 10, bgcolor: 'background.paper', background: 'linear-gradient(145deg, #f9fafb, #ffffff)' }}>
+    <ThemeProvider theme={theme}>
+      <Box sx={{ py: 10, bgcolor: 'background.paper', background: colorMode === 'dark' ? 'linear-gradient(145deg, #1e1e1e, #2d2d2d)' : 'linear-gradient(145deg, #f9fafb, #ffffff)' }}>
         <Container maxWidth="lg">
-          <Typography variant="h2" align="center" sx={{ fontWeight: 800, mb: 6, color: 'text.primary' }}>
+          <Typography
+            variant="h2"
+            align="center"
+            sx={{ fontWeight: 800, mb: 6, color: 'text.primary', animation: `${fadeIn} 0.5s ease-out` }}
+          >
             Explore Our Resources
           </Typography>
           <Grid container spacing={4} justifyContent="center">
@@ -86,10 +126,16 @@ export default function HomepageFeatures() {
       </Box>
       <Box sx={{ py: 10, bgcolor: 'background.default', textAlign: 'center' }}>
         <Container maxWidth="lg">
-          <Typography variant="h2" sx={{ fontWeight: 800, mb: 3, color: 'text.primary' }}>
+          <Typography
+            variant="h2"
+            sx={{ fontWeight: 800, mb: 3, color: 'text.primary', animation: `${fadeIn} 0.5s ease-out` }}
+          >
             Start Learning Today
           </Typography>
-          <Typography variant="body1" sx={{ mb: 5, color: 'text.secondary', maxWidth: 600, mx: 'auto' }}>
+          <Typography
+            variant="body1"
+            sx={{ mb: 5, color: 'text.secondary', maxWidth: 600, mx: 'auto', animation: `${fadeIn} 0.5s ease-out` }}
+          >
             Join thousands of students and unlock your potential with Ghumman Tech.
           </Typography>
           <Button
@@ -97,13 +143,16 @@ export default function HomepageFeatures() {
             size="large"
             href="/Categories/Courses"
             sx={{
-              bgcolor: '#FF6B6B',
+              bgcolor: '#e53e3e', // Consistent red color
               color: 'white',
               fontWeight: 700,
               px: 6,
               py: 1.5,
+              transition: 'background-color 0.3s ease, transform 0.3s ease',
+              animation: `${pulse} 2s infinite`,
               '&:hover': {
-                bgcolor: '#E64A4A', // Darker red on hover
+                bgcolor: '#c53030', // Darker red on hover
+                transform: 'scale(1.05)',
               },
             }}
           >
@@ -111,6 +160,6 @@ export default function HomepageFeatures() {
           </Button>
         </Container>
       </Box>
-    </>
+    </ThemeProvider>
   );
 }
