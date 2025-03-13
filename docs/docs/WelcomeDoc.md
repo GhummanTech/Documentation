@@ -56,7 +56,7 @@ This documentation helps you navigate all aspects of Ghumman Tech. Here’s what
 
 For any questions or support, you can:
 - Explore this documentation for step-by-step guidance.
-- Contact our team via **support@ghummantech.com**.
+- Contact our team via **admin@ghummantech.com**.
 - Join our community forums for discussions and networking.
 
 ## Start Learning & Teaching Today!
