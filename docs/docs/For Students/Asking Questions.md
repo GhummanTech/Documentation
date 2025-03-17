@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: /asking-questions
 ---
 
 # Asking Questions and Getting Help

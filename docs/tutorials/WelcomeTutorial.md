@@ -55,3 +55,8 @@ If you have any questions, you can:
 ## Start Exploring!
 
 Browse the tutorials and **discover how to make the most of Ghumman Tech**—whether you’re here to learn, teach, or collaborate. 🚀
+
+### Quick Links
+- [For Students](/docs/category/for-students-1)
+- [For Teachers](/docs/category/for-teachers-1)
+- [Technical Help](/docs/category/technical-help)
