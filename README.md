@@ -9,10 +9,10 @@ Ghumman Tech is an end-to-end solution for teaching and learning. It provides a 
 - Dentistry & Healthcare Seminars
 - Autism & Special Needs Education
 - Coding (Scratch, Python, C++, Java)
-- Mobile App Development (MIT App Inventor)
-- Game Development (Unity, Blender)
+- Mobile App Development
+- Game Development (Unity, Unreal, Blender)
 - AI & Electronics
-- Urdu Language
+- Spoken Languages including English, Mandarin Chinese, Hindi, Spanish, French, Arabic, Bengali, Portuguese, Russian, Urdu and more.
 - And much more!
 
 Classes can be conducted as:
