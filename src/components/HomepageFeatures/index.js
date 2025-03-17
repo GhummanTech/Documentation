@@ -141,7 +141,7 @@ export default function HomepageFeatures() {
           <Button
             variant="contained"
             size="large"
-            href="/Categories/Courses"
+            href="https://ghummantech.com/Categories/Courses"
             sx={{
               bgcolor: '#e53e3e', // Consistent red color
               color: 'white',
