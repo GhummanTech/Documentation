@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkghummantech_docs=self.webpackChunkghummantech_docs||[]).push([[4397],{5260:e=>{e.exports=JSON.parse('{"tags":[{"label":"education","permalink":"/Documentation/blog/tags/education","count":1},{"label":"learning","permalink":"/Documentation/blog/tags/learning","count":1}]}')}}]);
