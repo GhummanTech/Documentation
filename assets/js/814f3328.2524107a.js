@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkghummantech_docs=self.webpackChunkghummantech_docs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Benefits of Online Learning Platforms","permalink":"/Documentation/blog/2025/03/20/benefits-of-online-learning-platforms","unlisted":false,"date":"2025-03-20T00:00:00.000Z"}]}')}}]);
