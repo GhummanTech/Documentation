@@ -1,10 +1,10 @@
 ---
-title: Empowering Financial Literacy: The Transformative Power of Online Education
+title: Empowering Financial Literacy -  The Transformative Power of Online Education
 authors: ghumman
 tags: ['ghummantech', 'workstudybalance', 'ethicaldecisionmaking']
 ---
 
-Empowering Financial Literacy: The Transformative Power of Online Education
+Empowering Financial Literacy - The Transformative Power of Online Education
 <!-- truncate -->
 
 Title: Unraveling the Power of Online Education in Uplifting Financial Literacy
