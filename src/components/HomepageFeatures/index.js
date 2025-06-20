@@ -14,6 +14,7 @@ import {
 import { Article, School } from "@mui/icons-material"; // Import MUI icons
 import { keyframes } from "@emotion/react"; // For animations
 import { useColorMode } from "@docusaurus/theme-common"; // Correct import for Docusaurus v2
+import FAQ from "./FAQ";
 
 // Define animations
 const fadeIn = keyframes`
@@ -128,10 +129,10 @@ function FeatureCard({ icon, title, description, link }) {
 }
 
 export default function HomepageFeatures() {
-  const { colorMode } = useColorMode(); // Get Docusaurus dark mode state
+  const { colorMode } = useColorMode();
   const theme = createTheme({
     palette: {
-      mode: colorMode === "dark" ? "dark" : "light", // Sync MUI theme with Docusaurus dark mode
+      mode: colorMode === "dark" ? "dark" : "light",
     },
   });
 
@@ -169,6 +170,7 @@ export default function HomepageFeatures() {
           </Grid>
         </Container>
       </Box>
+      
       <Box sx={{ py: 10, bgcolor: "background.default", textAlign: "center" }}>
         <Container maxWidth="lg">
           <Typography
@@ -192,8 +194,7 @@ export default function HomepageFeatures() {
               animation: `${fadeIn} 0.5s ease-out`,
             }}
           >
-            Join thousands of students and unlock your potential with Ghumman
-            Tech.
+            Join thousands of students and unlock your potential with Ghumman Tech.
           </Typography>
           <Button
             variant="contained"
@@ -203,7 +204,7 @@ export default function HomepageFeatures() {
                 "https://ghummantech.com/Categories/Courses")
             }
             sx={{
-              bgcolor: "#e53e3e", // Consistent red color
+              bgcolor: "#e53e3e",
               color: "white",
               fontWeight: 700,
               px: 6,
@@ -211,7 +212,7 @@ export default function HomepageFeatures() {
               transition: "background-color 0.3s ease, transform 0.3s ease",
               animation: `${pulse} 2s infinite`,
               "&:hover": {
-                bgcolor: "#c53030", // Darker red on hover
+                bgcolor: "#c53030",
                 transform: "scale(1.05)",
               },
             }}
@@ -220,6 +221,10 @@ export default function HomepageFeatures() {
           </Button>
         </Container>
       </Box>
+      
+      {/* Add the FAQ component here */}
+      <FAQ colorMode={colorMode} />
     </ThemeProvider>
   );
 }
+
