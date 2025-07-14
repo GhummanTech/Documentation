@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # How to Enroll in a Free Trial Class at Ghumman Tech
 
 Welcome to Ghumman Tech! This step-by-step tutorial will guide you through the process of enrolling in a free trial class. Whether you're a student, parent, or an adult learner, this guide will make the enrollment process quick and easy.
