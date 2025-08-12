@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkghummantech_docs=self.webpackChunkghummantech_docs||[]).push([[6991],{57309:e=>{e.exports=JSON.parse('{"tags":[{"label":"General","permalink":"/Documentation/docs/tags/general","count":2}]}')}}]);
