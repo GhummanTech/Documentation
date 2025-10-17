@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkghummantech_docs=self.webpackChunkghummantech_docs||[]).push([[5745],{74536:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/Documentation/blog/page/21","page":21,"postsPerPage":10,"totalPages":21,"totalCount":210,"previousPage":"/Documentation/blog/page/20","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
