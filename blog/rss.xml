@@ -4,10 +4,58 @@
         <title>Ghumman Tech Blog</title>
         <link>https://GhummanTech.github.io/Documentation/blog</link>
         <description>Ghumman Tech Blog</description>
-        <lastBuildDate>Fri, 16 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Oct 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Building a Quranic Theme Game: Patience in Action with Quran Swipe]]></title>
+            <link>https://GhummanTech.github.io/Documentation/blog/2026/10/21/building-a-quranic-theme-game-patience-in-action-with-quran-swipe</link>
+            <guid>https://GhummanTech.github.io/Documentation/blog/2026/10/21/building-a-quranic-theme-game-patience-in-action-with-quran-swipe</guid>
+            <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to design and develop engaging educational games using Quranic themes like patience, perseverance, and faith through the Quran Swipe game tutorial.]]></description>
+            <content:encoded><![CDATA[<p>Learn how to design and develop engaging educational games using Quranic themes like patience, perseverance, and faith through the Quran Swipe game tutorial.</p>
+<p><a href="https://www.youtube.com/watch?v=B_LNtdVM4LM" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.youtube.com/vi/B_LNtdVM4LM/maxresdefault.jpg" alt="Watch Video Tutorial: Building a Quranic Theme Game: Patience in Action with Quran Swipe" class="img_ev3q"></a></p>
+<p><em>▶️ Click the image above to watch the full step-by-step video walkthrough on <a href="https://www.youtube.com/watch?v=B_LNtdVM4LM" target="_blank" rel="noopener noreferrer">YouTube</a>!</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://ghummantech.github.io/Documentation/blog/2026/10/21/building-a-quranic-theme-game-patience-in-action-with-quran-swipe#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>Have you ever wondered how to blend spiritual learning with modern interactive gameplay? In this blog post, we'll explore how the <em>Quran Swipe</em> game uses rich Quranic themes—like patience (<em>Sabar</em>), joy, anger, and faith—to create an immersive educational experience. Specifically, we’ll walk through the gameplay mechanics of the Patience theme, understanding how players engage with words related to perseverance while filtering out irrelevant ones.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="understanding-the-quran-swipe-gameplay">Understanding the Quran Swipe Gameplay<a href="https://ghummantech.github.io/Documentation/blog/2026/10/21/building-a-quranic-theme-game-patience-in-action-with-quran-swipe#understanding-the-quran-swipe-gameplay" class="hash-link" aria-label="Direct link to Understanding the Quran Swipe Gameplay" title="Direct link to Understanding the Quran Swipe Gameplay">​</a></h2>
+<p>The <em>Quran Swipe</em> game offers multiple themes derived from the Holy Quran, each containing various stages that challenge players' knowledge and decision-making skills. Each theme, such as patience or humility, is composed of a set of words related to its core concept.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features-of-a-theme-stage">Key Features of a Theme Stage<a href="https://ghummantech.github.io/Documentation/blog/2026/10/21/building-a-quranic-theme-game-patience-in-action-with-quran-swipe#key-features-of-a-theme-stage" class="hash-link" aria-label="Direct link to Key Features of a Theme Stage" title="Direct link to Key Features of a Theme Stage">​</a></h3>
+<ul>
+<li><strong>Word Set:</strong> A curated collection of Arabic words (or phrases) tied to the theme.</li>
+<li><strong>Objective:</strong> Players must identify and remove words that are NOT related to the theme.</li>
+<li><strong>Scoring System:</strong> Accuracy in filtering increases player score.</li>
+</ul>
+<p>Let’s take a look at how this works with the <strong>Patience Theme</strong>:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Words related to Patience (Sabar):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- صَابِرٍ</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- اِسْتَصْبَارًا</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- سَبَرَ</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- صَابِرَة</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- مُصْتَبِرٍ</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>These words are all associated with the concept of patience and perseverance. The player's task is to swipe away any word that does <strong>not</strong> fit this theme.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-play-the-patience-stage">How to Play the Patience Stage<a href="https://ghummantech.github.io/Documentation/blog/2026/10/21/building-a-quranic-theme-game-patience-in-action-with-quran-swipe#how-to-play-the-patience-stage" class="hash-link" aria-label="Direct link to How to Play the Patience Stage" title="Direct link to How to Play the Patience Stage">​</a></h2>
+<ol>
+<li><strong>Start the Game:</strong> Begin by selecting a theme (e.g., <em>Patience</em>).</li>
+<li><strong>Identify Words:</strong> Review each word presented on screen.</li>
+<li><strong>Swipe Out Irrelevant Words:</strong> Swipe left or right based on whether the word relates to the theme.</li>
+<li><strong>Score Points:</strong> Accurate decisions lead to higher scores and better performance.</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-gameplay">Example Gameplay<a href="https://ghummantech.github.io/Documentation/blog/2026/10/21/building-a-quranic-theme-game-patience-in-action-with-quran-swipe#example-gameplay" class="hash-link" aria-label="Direct link to Example Gameplay" title="Direct link to Example Gameplay">​</a></h3>
+<p>In one session, a player ended up scoring 13,500 points by successfully identifying and removing most of the distractions:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Distractions (Non-Patience Words):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- فَتُصْبِحَهُ</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- يَخْرُجُوا قَوْلًا إِتَاعَ السَّادَة</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- بِلْجُنَاء ثَوَاب الْيَتَامَى</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- فَانْتَهَلَ الْقِطْرِ بَعْدِهِم</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- الْحَمْدُ لِلَّهِ وَالْقَيْنَة</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- وَلَيْسَ أَرْسِلْهُ نَصِيبًا</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>One mistake occurred when the player hesitated on <em>فَتُصْبِحَهُ</em> (which actually relates to patience due to its root <em>صَبَر</em>), but mistakenly let it pass, impacting the final score.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tips-for-effective-gameplay">Tips for Effective Gameplay<a href="https://ghummantech.github.io/Documentation/blog/2026/10/21/building-a-quranic-theme-game-patience-in-action-with-quran-swipe#tips-for-effective-gameplay" class="hash-link" aria-label="Direct link to Tips for Effective Gameplay" title="Direct link to Tips for Effective Gameplay">​</a></h2>
+<ul>
+<li><strong>Root Recognition:</strong> Learn common roots of Arabic words, as they often carry thematic meaning.</li>
+<li><strong>Focus &amp; Speed:</strong> Balance accuracy with quick decision-making.</li>
+<li><strong>Practice Makes Progress:</strong> Repeated exposure to themes improves pattern recognition.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://ghummantech.github.io/Documentation/blog/2026/10/21/building-a-quranic-theme-game-patience-in-action-with-quran-swipe#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>The <em>Quran Swipe</em> game is more than just a fun activity—it’s an intelligent way to reinforce Quranic teachings in a modern, interactive format. By integrating core Islamic values like patience into gameplay mechanics, developers can create meaningful experiences that educate and inspire users. Whether you're a developer looking to build similar games or someone interested in spiritual learning through tech, this tutorial gives insight into how powerful themes can drive engagement.</p>
+<p>So why not try building your own theme-based game today? Let the words of wisdom guide your development journey!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tags">Tags<a href="https://ghummantech.github.io/Documentation/blog/2026/10/21/building-a-quranic-theme-game-patience-in-action-with-quran-swipe#tags" class="hash-link" aria-label="Direct link to Tags" title="Direct link to Tags">​</a></h3>
+<p><code>ghummantech</code>, <code>game development</code>, <code>quran</code>, <code>interactive learning</code></p>]]></content:encoded>
+            <category>ghummantech</category>
+            <category>gamedevelopment</category>
+            <category>quran</category>
+        </item>
         <item>
             <title><![CDATA[Record & Share Audio Like a Pro: A Developer’s Guide to Comantech's Audio Tool]]></title>
             <link>https://GhummanTech.github.io/Documentation/blog/2026/10/16/record-share-audio-like-a-pro-a-developers-guide-to-comantechs-audio-tool</link>
@@ -657,25 +705,6 @@
             <category>ghummantech</category>
             <category>mindfulness</category>
             <category>mobilelearning</category>
-        </item>
-        <item>
-            <title><![CDATA[Unlocking Success: How Big Data Fuels Superior Outcomes on Online Learning Platforms]]></title>
-            <link>https://GhummanTech.github.io/Documentation/blog/2026/04/16/unlocking-success-how-big-data-fuels-superior-outcomes-on-online-learning-platforms</link>
-            <guid>https://GhummanTech.github.io/Documentation/blog/2026/04/16/unlocking-success-how-big-data-fuels-superior-outcomes-on-online-learning-platforms</guid>
-            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Unlocking Success: How Big Data Fuels Superior Outcomes on Online Learning Platforms]]></description>
-            <content:encoded><![CDATA[<p>Unlocking Success: How Big Data Fuels Superior Outcomes on Online Learning Platforms</p>
-<p>As online learning continues to expand globally, both in scope and sophistication, education technology now has access to massive amounts of data about every aspect of the learning process. Big data, a term used to describe the enormous data sets generated by digitized processes, has become a key driver in optimizing online learning platforms. So, how are these platforms leveraging big data for better outcomes?</p>
-<p>Firstly, personalization is one of the main advantages of using big data in online learning. Platforms analyze user data to create customized learning paths tailored to individual learning styles, pace, and ability. This personalized learning experience offers more targeted guidance, which has proven more effective than traditional one-size-fits-all methods. Coursera, for instance, uses machine learning algorithms to analyze millions of data points and then tailors course recommendations, enhancing students' engagement and learning outcomes.</p>
-<p>Furthermore, big data also provides valuable insights into student performance. Through detailed tracking of every click, pause, and completion rate, online platforms can generate a complete picture of a student's learning progress, identifying key areas they struggle with and enabling educators to provide targeted support. By highlighting possible issues early on, educators can prevent dropouts and improve student success rates.</p>
-<p>Predictive analytics is another powerful use of big data in online learning. Platforms can leverage algorithms to predict future outcomes based on historical data. This predictive capability can be used to identify students at risk of failing or dropping out, allowing for timely intervention. For example, the Georgia State University system leverages predictive analytics, helping to improve its graduation rates significantly in recent years.</p>
-<p>Importantly, big data has the potential to enhance the overall design and quality of online learning materials. Platforms can analyze performance outcomes against different learning activities, resources, instructional designs and determine which are the most effective. Equipped with such insights, educators can continuously refine their instruction materials to ensure maximum learning engagement and effectiveness.</p>
-<p>The use of big data extends beyond students and teachers to administrative applications as well. Institutions can leverage big data to gain insights into their systems, effectiveness of programs, and student demographics. Patterns and trends identified can aid in strategic decision-making, planning, and managing resources efficiently.</p>
-<p>Lastly, big data also enables A/B testing, a method used to compare two versions of a webpage or app to see which performs better. In the context of online learning, this can help in testing different instructional designs, formats, or content versions, and determining which one produces better learning outcomes.</p>
-<p>In conclusion, big data presents massive potential for improving online learning. It empowers online platforms to deliver a personalized, predictive, and data-driven education experience that can significantly enhance learning outcomes. As the data continues to grow, so will the opportunities for online learning to improve. However, it is important to balance this potential with responsible and ethical data use. Ensuring data privacy and security remains a top priority as we harness the power of big data to revolutionize online education.</p>]]></content:encoded>
-            <category>ghummantech</category>
-            <category>corporatetraining</category>
-            <category>technology</category>
         </item>
     </channel>
 </rss>
