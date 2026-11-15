@@ -4,10 +4,93 @@
         <title>Ghumman Tech Blog</title>
         <link>https://GhummanTech.github.io/Documentation/blog</link>
         <description>Ghumman Tech Blog</description>
-        <lastBuildDate>Sun, 08 Nov 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Nov 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Master the Spike Prime Robot Simulation with GhummanTech's Code Playground Tutorial]]></title>
+            <link>https://GhummanTech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial</link>
+            <guid>https://GhummanTech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial</guid>
+            <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to use GhummanTech’s Code Playground to simulate and control your Spike Prime robot using Python and intuitive motion controls. This tutorial covers everything from basic movement to precise angle programming.]]></description>
+            <content:encoded><![CDATA[<p>Learn how to use GhummanTech’s Code Playground to simulate and control your Spike Prime robot using Python and intuitive motion controls. This tutorial covers everything from basic movement to precise angle programming.</p>
+<p><a href="https://www.youtube.com/watch?v=iFuG6b_9EPI" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.youtube.com/vi/iFuG6b_9EPI/maxresdefault.jpg" alt="Watch Video Tutorial: Master the Spike Prime Robot Simulation with GhummanTech's Code Playground Tutorial" class="img_ev3q"></a></p>
+<p><em>▶️ Click the image above to watch the full step-by-step video walkthrough on <a href="https://www.youtube.com/watch?v=iFuG6b_9EPI" target="_blank" rel="noopener noreferrer">YouTube</a>!</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>Welcome back, developers! If you're working with the LEGO Spike Prime robot or exploring robotics in Python, then this tutorial is for you. Today we’re diving into GhummanTech’s <strong>Code Playground</strong>, a powerful simulation tool that allows you to write code, simulate robot behavior, and even connect directly to your physical Spike Prime unit via Bluetooth.</p>
+<p>Whether you're a beginner looking to understand how to move your robot or an experienced developer aiming to build accurate motion sequences, this guide will walk you through everything you need to know — step by step.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="accessing-the-code-playground">Accessing the Code Playground<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#accessing-the-code-playground" class="hash-link" aria-label="Direct link to Accessing the Code Playground" title="Direct link to Accessing the Code Playground">​</a></h2>
+<p>To get started, open your browser and navigate to <a href="https://comment.com/" target="_blank" rel="noopener noreferrer">comment.com</a>. Once there, click on the <strong>menu tab</strong> and look for the <strong>Tools</strong> section. You'll find the <strong>Code Playground</strong> listed as the second option.</p>
+<p>Here's what you’ll see when you land in the playground:</p>
+<ol>
+<li><strong>Python Playground Tab</strong>: Write and run Python code directly.</li>
+<li><strong>Robot Simulation Tab</strong>: Simulate robot behavior without hardware.</li>
+<li><strong>Spike Prime Lab Tab</strong>: Connect to your actual Spike Prime via Bluetooth for real-world control.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="writing-your-first-python-code">Writing Your First Python Code<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#writing-your-first-python-code" class="hash-link" aria-label="Direct link to Writing Your First Python Code" title="Direct link to Writing Your First Python Code">​</a></h2>
+<p>Let’s start by writing a simple Python script in the first tab. For example:</p>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Hello, World!"</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>To execute this code, click the <strong>Run</strong> button. You’ll see output in the console below.</p>
+<blockquote>
+<p>💡 Tip: In Python, always call functions explicitly (like <code>print()</code>), otherwise they won't execute unless invoked.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="controlling-your-robot-with-spike-prime-lab">Controlling Your Robot with Spike Prime Lab<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#controlling-your-robot-with-spike-prime-lab" class="hash-link" aria-label="Direct link to Controlling Your Robot with Spike Prime Lab" title="Direct link to Controlling Your Robot with Spike Prime Lab">​</a></h2>
+<p>Now let’s explore how to control your physical Spike Prime robot using the <strong>Spike Prime Lab</strong> tab.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="connecting-via-bluetooth">Connecting via Bluetooth<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#connecting-via-bluetooth" class="hash-link" aria-label="Direct link to Connecting via Bluetooth" title="Direct link to Connecting via Bluetooth">​</a></h3>
+<p>Before controlling anything, make sure:</p>
+<ul>
+<li>Your Spike Prime is powered on.</li>
+<li>It's within Bluetooth range (usually up to 10 meters).</li>
+</ul>
+<p>Click <strong>Connect</strong> in the lab interface — you’ll be prompted to allow Bluetooth permissions. Once connected, you’re ready to simulate or control movements.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="manual-control-using-arrow-keys">Manual Control Using Arrow Keys<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#manual-control-using-arrow-keys" class="hash-link" aria-label="Direct link to Manual Control Using Arrow Keys" title="Direct link to Manual Control Using Arrow Keys">​</a></h3>
+<p>In this mode, you can manually drive your robot using arrow keys:</p>
+<ul>
+<li>Press and hold the <strong>up arrow key</strong> to move forward.</li>
+<li>Release it to stop.</li>
+<li>Use the <strong>left/right arrows</strong> for turning.</li>
+</ul>
+<p>Once you’ve moved the robot, scroll up to find the <strong>Add Motion Step</strong> button. Clicking this adds your movement to the code list automatically.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-drawing-a-square">Example: Drawing a Square<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#example-drawing-a-square" class="hash-link" aria-label="Direct link to Example: Drawing a Square" title="Direct link to Example: Drawing a Square">​</a></h3>
+<p>Here’s how to create a square path:</p>
+<ol>
+<li>Move forward → press <strong>up arrow key</strong>, then click <strong>Add Forward</strong></li>
+<li>Turn right 90 degrees → press <strong>right arrow key</strong>, then click <strong>Add Turn</strong></li>
+<li>Repeat steps 1 and 2 three more times</li>
+</ol>
+<p>This process builds an accurate square path using intuitive controls.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="simulating-without-hardware">Simulating Without Hardware<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#simulating-without-hardware" class="hash-link" aria-label="Direct link to Simulating Without Hardware" title="Direct link to Simulating Without Hardware">​</a></h2>
+<p>If you don’t have access to a Spike Prime, the <strong>Robot Simulation</strong> tab is perfect for testing your logic.</p>
+<p>You can:</p>
+<ul>
+<li>Run pre-defined programs</li>
+<li>Modify motion paths manually</li>
+<li>Add steps and watch real-time simulation</li>
+</ul>
+<p>The simulation uses <strong>yaw angle-based turns</strong>, which are extremely precise — ideal for tasks requiring accuracy like navigation or mapping.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="programming-precision-with-angles">Programming Precision with Angles<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#programming-precision-with-angles" class="hash-link" aria-label="Direct link to Programming Precision with Angles" title="Direct link to Programming Precision with Angles">​</a></h2>
+<p>One of the standout features of Code Playground is its ability to define custom angles instead of fixed movements. For instance:</p>
+<p>Instead of moving forward and then turning 90 degrees, you can set a turn to exactly <strong>45 degrees</strong>.</p>
+<p>This gives developers full control over robot trajectories and makes it easier to create complex mazes or paths.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="best-practices--tips">Best Practices &amp; Tips<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#best-practices--tips" class="hash-link" aria-label="Direct link to Best Practices &amp; Tips" title="Direct link to Best Practices &amp; Tips">​</a></h2>
+<p>Here are some key takeaways for mastering the Spike Prime with Code Playground:</p>
+<ul>
+<li>Always test your logic in simulation before connecting to hardware.</li>
+<li>Use <strong>Add Motion Step</strong> for quick prototyping.</li>
+<li>Combine manual and automated controls for faster development.</li>
+<li>Save up to 20 programs using the programming slots on the Spike Prime.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://ghummantech.github.io/Documentation/blog/2026/11/15/master-the-spike-prime-robot-simulation-with-ghummantechs-code-playground-tutorial#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>With GhummanTech’s Code Playground, learning robotics has never been more accessible or engaging. Whether you're simulating robot behavior or commanding real hardware, this tool empowers developers and educators alike to build smarter automation projects.</p>
+<p>So go ahead — try creating your own missions, experiment with angles, and see where your robotic journey takes you!</p>
+<p>Happy coding,</p>
+<p><strong>The GhummanTech Team</strong></p>]]></content:encoded>
+            <category>ghummantech</category>
+            <category>python</category>
+            <category>robotics</category>
+            <category>spikeprime</category>
+        </item>
         <item>
             <title><![CDATA[Arduino Push Button Tutorial: Understanding Pull-Up and Pull-Down Resistors]]></title>
             <link>https://GhummanTech.github.io/Documentation/blog/2026/11/08/arduino-push-button-tutorial-understanding-pull-up-and-pull-down-resistors</link>
@@ -767,24 +850,6 @@
             <category>ghummantech</category>
             <category>feedback</category>
             <category>projectbasedlearning</category>
-        </item>
-        <item>
-            <title><![CDATA[Empowering Purpose: How Online Learning Platforms Are Guiding Student's Path]]></title>
-            <link>https://GhummanTech.github.io/Documentation/blog/2026/04/19/empowering-purpose-how-online-learning-platforms-are-guiding-students-path</link>
-            <guid>https://GhummanTech.github.io/Documentation/blog/2026/04/19/empowering-purpose-how-online-learning-platforms-are-guiding-students-path</guid>
-            <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Empowering Purpose: How Online Learning Platforms Are Guiding Student's Path]]></description>
-            <content:encoded><![CDATA[<p>Empowering Purpose: How Online Learning Platforms Are Guiding Student's Path</p>
-<p>In a world increasingly shifting towards the digital sphere, online learning platforms have emerged as an essential tool in education. By making information and learning opportunities more accessible, they are steering a revolution in how students perceive education and derive a sense of purpose. The increasing prevalence of these platforms calls for a more in-depth understanding of how they are helping students develop a sense of direction and enthusiasm for their studies.</p>
-<p>One of the primary advantages of online learning platforms is their potential to personalize learning experiences. This is a stark contrast to traditional classrooms where one-size-fits-all methods often rule, sometimes leading to a lack of engagement for students who may learn at a different pace or in a different style. With online learning platforms, students can customize their educational experience, navigating through course material at their own pace, diving deep into subjects of interest, and bypassing topics they are already familiar with. This freedom to take control of their learning journey enables students to feel more connected to what they are learning and fosters their sense of purpose.</p>
-<p>Secondly, online platforms offer a plethora of course options across a broad spectrum of fields. Whether a student is fascinated by astrophysics, interested in graphic design, or keen to understand human psychology, there's a course available online. This freedom of choice allows students to explore their interests and passions, cultivating a sense of purpose by aligning their learning with their aspirations. It's a distinct departure from the conventional model of education that may not cater to diverse interests.</p>
-<p>In addition to academic development, online learning platforms are instilling essential life skills in students. Digital literacy, time management, self-discipline, and independent problem-solving are all integral to successful online learning. By developing these transferrable skills, students are prepared for the future work environment, boosting their confidence and fostering a sense of purpose for their career path.</p>
-<p>Furthermore, online platforms often include forums and community features, creating collaborative spaces for students to engage with each other and course instructors. This virtual community encourages students to actively participate, fostering a sense of belonging and enthusiasm for their chosen field of study. Through these communities, students can learn from their peers' perspectives, gain new insights, appreciate the value of collaborative learning, and find motivation in shared purpose.</p>
-<p>Finally, online learning platforms provide an avenue for lifelong learning. The Internet era does not limit education to a particular age or stage of life. Anyone can learn anything at any time. This widespread accessibility nurtures a culture of continuous learning, inspiring students to remain curious and passionate, and embracing a sense of purpose that evolves with their learning journey.</p>
-<p>Online learning platforms are indeed transforming the education sector. While they come with their set of challenges – such as digital inequity and a lack of direct physical interaction – their potential in instilling a sense of purpose in students is undeniable. They allow for personalized, flexible education that caters to individual interests, fosters critical life skills, encourages community learning, and promotes lifelong learning. As these platforms continue to advance and evolve, one can only anticipate their growing influence in shaping purpose-driven, passionate learners ready to thrive in the digital age.</p>]]></content:encoded>
-            <category>ghummantech</category>
-            <category>reflectivelearning</category>
-            <category>creativity</category>
         </item>
     </channel>
 </rss>
